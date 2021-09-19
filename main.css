@@ -1,3 +1,12 @@
+/* Details
+    font: roboto, sans-serif;
+    navBar color: #dddddd;
+    navBar transition color: #5579778c
+    background color container 1: #331a5c;
+    main button color: #fe9000;
+    text color: white, black;
+*/
+
 
 /* text structure */
 
@@ -30,9 +39,22 @@ p {
     text-align: center;
 }
 
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+a { 
+    text-decoration: none;
+    color:white
+}
+
+
 /* Main Body */
 body {
     font-family: 'Roboto', sans-serif;
+    margin: auto;
     
 }
 
@@ -41,14 +63,16 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     position: fixed;
     width: 100%;
+    height: 80px;
     padding-right: 20px;
     padding-left: 20px;
     color: white;
     font-size: 16px;
     font-weight: 500;
+    /* background-color: #dddddd; */  /*main color*/
+    background-color: #5579778c;
 }
 
 
@@ -101,6 +125,7 @@ header {
 }
 
 .navLinks {
+    margin: auto;
     color: white;
 }
 
@@ -112,6 +137,7 @@ button#navOpenKast {
     height: 27px;
     margin-top: 26px;
     margin-left: 40px;
+    margin-right: 40px;
     padding: 0px;
     justify-content: center;
     border: 1px solid transparent;
@@ -123,6 +149,7 @@ button#navOpenKast {
     letter-spacing: 1.5px;
     background-color: transparent;
     color: white;
+    cursor: pointer;
 }
 
 button#openKast {
@@ -141,7 +168,7 @@ button#openKast {
     letter-spacing: 1.44px;
     background-color: #fe9000;
     color: white;
-    
+    cursor: pointer;
 }
 
 /* secondary layout structures */
@@ -185,3 +212,33 @@ button#openKast {
     margin-bottom: 120px;
 
 }
+
+/* Tertiary Layout Structures */
+
+#about {
+    padding: 8px 40px 8px 0;
+}
+
+#help {
+    padding: 8px 40px 8px 0;
+}
+
+#community {
+    padding: 8px 40px 8px 0;
+}
+
+#premium {
+    padding: 8px 40px 8px 0;
+}
+#premium:hover {
+    text-decoration: underline;
+}
+
+
+#wired {margin: 0 140px 0 0;}
+
+#nerdist {margin: 0 140px 0 0;}
+
+#evening {margin: 0 140px 0 0;}
+
+#bbc{margin: 0 140px 0 0;}
