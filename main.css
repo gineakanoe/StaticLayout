@@ -11,8 +11,23 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    
+h3 {
+    display: flex;
+    justify-content: center;
+    margin: 110px 0 50px 0;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.4;  
+    text-align: center;
 }
 
 /* Main Body */
@@ -24,13 +39,13 @@ body {
 /* Header */
 
 header {
-    /*position: fixed;*/
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-
-    align-items: center;
-    background-color: gray;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
     color: white;
     font-size: 16px;
     font-weight: 500;
@@ -43,18 +58,16 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    min-height: auto;
-    margin-top: -80px;
+    margin: auto;
     padding-top: 140px;
     padding-bottom: 110px;
-    border: 0px none transparent;
-    border-radius: 0px;
     background-color: #331a5c;
     background-image: url(./assets/gradient-violet-bg.jpg);
     background-position: 50% 50%;
     background-size: cover;
     width: 100%;
     color: white;
+    
 }
 
 .container2 {
@@ -69,7 +82,10 @@ header {
     display: flex;
     justify-content: center;   
     flex-direction: column;
+    padding-top: 110px;
+    padding-bottom: 110px;
     background-image: url(./assets/green-bg.jpg);
+    background-size: cover;
     color: white;
 }
 
@@ -82,6 +98,10 @@ header {
     margin-top: 18px;
     margin-left: 0px;
     /* transition: ; */
+}
+
+.navLinks {
+    color: white;
 }
 
 /* button structure */
@@ -103,4 +123,65 @@ button#navOpenKast {
     letter-spacing: 1.5px;
     background-color: transparent;
     color: white;
+}
+
+button#openKast {
+    display: flex;
+    justify-content: center;
+    margin: auto; /*For some reason adds a line under 'open kast'*/
+    width: 215px;
+    padding: 0px 16px;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    /* transition */
+    font-size: 18px;
+    line-height: 44px;
+    font-weight: 700;
+    letter-spacing: 1.44px;
+    background-color: #fe9000;
+    color: white;
+    
+}
+
+/* secondary layout structures */
+
+.laptopImage {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    max-width: 610px;
+    margin-bottom: 30px;
+   
+}
+
+.logos1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 80px;
+    
+}
+
+.logos2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
+    max-width: 200px;   
+    
+}
+
+#quote {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 120px;
+
 }
