@@ -109,6 +109,7 @@ body {
     color: white;
     font-size: 16px;
     font-weight: 500;
+    /*background: linear-gradient(transparent 0%, #5579778c 85%);*/ /*Fun idea but can't quite get it to work how I hoped*/
     /*background-color: transparent;*/
     background-color: #5579778c;        /*Transition color*/
     /*transition: all 0.3s ease-out;*/  /*scrolling transition js*/
