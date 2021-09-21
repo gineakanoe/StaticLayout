@@ -1,6 +1,6 @@
 /* Details
     font: roboto, sans-serif;
-    navBar color: #dddddd;
+    color: #dddddd;
     navBar transition color: #5579778c
     background color container 1: #331a5c;
     main button color: #fe9000;
@@ -71,8 +71,14 @@ header {
     color: white;
     font-size: 16px;
     font-weight: 500;
-    /* background-color: #dddddd; */  /*main color*/
-    background-color: #5579778c;
+    background-color: transparent; /*main color*/
+    /*background-color: #5579778c; */ /*Transition color*/
+}
+header.fixed-top {      /*Scrolling Transition*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #5579778c; /*Transition color*/
 }
 
 
@@ -128,10 +134,6 @@ header {
     position: relative;
     margin-top: 8px;
     color: white;
-}
-
-span {
-    
 }
 
 /* button structure */
@@ -248,3 +250,4 @@ button#openKast {
 #evening {margin: 0 140px 0 0;}
 
 #bbc{margin: 0 140px 0 0;}
+
