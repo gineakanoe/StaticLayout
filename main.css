@@ -108,16 +108,17 @@ body {
     font-size: 16px;
     font-weight: 500;
     background-color: transparent;
-    transition: all 0.3s ease-out;
+    /*transition: all 0.3s ease-out;*/  /*scrolling transition js*/
 }
 
-.navBar.fixed-top {      /*Scrolling Transition*/
+/*
+.navBar.fixed-top {                     -Scrolling Transition
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #5579778c; /*Transition color*/
+    background-color: #5579778c;        Transition color
 }
-
+*/
 
 .mainLogo {
     position: relative;
