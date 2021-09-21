@@ -71,16 +71,9 @@ header {
     color: white;
     font-size: 16px;
     font-weight: 500;
-    background-color: transparent; /*main color*/
+    /*background-color: transparent;*/ /*main color*/
     /*background-color: #5579778c; */ /*Transition color*/
 }
-header.fixed-top {      /*Scrolling Transition*/
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #5579778c; /*Transition color*/
-}
-
 
 /* Sections*/
 
@@ -120,6 +113,20 @@ header.fixed-top {      /*Scrolling Transition*/
 }
 
 /* nav bar structure */
+
+.navBar {
+    position: relative;
+    background-color: transparent;
+    transition: all 0.3s ease-out;
+}
+
+.navBar.fixed-top {      /*Scrolling Transition*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #5579778c; /*Transition color*/
+}
+
 
 .mainLogo {
     position: relative;
