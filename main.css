@@ -1,10 +1,12 @@
 /* Details
     font: roboto, sans-serif;
+    font awesome: chevron-down;
     color: #dddddd;
     navBar transition color: #5579778c
     background color container 1: #331a5c;
     main button color: #fe9000;
     text color: white, black;
+    note to self. '&nbsp;' adds space in line text;
 */
 
 
@@ -50,9 +52,7 @@ a {
     color:white
 }
 
-i {
-    
-}
+
 /* Main Body */
 body {
     font-family: 'Roboto', sans-serif;
@@ -137,6 +137,8 @@ body {
     margin-top: 8px;
     color: white;
 }
+
+
 
 /* button structure */
 
